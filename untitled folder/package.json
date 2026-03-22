@@ -1,0 +1,11 @@
+{
+  "name": "fleshflow-web-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive generative drawing web app with customizable background color",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  }
+}
