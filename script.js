@@ -399,6 +399,11 @@ bgColorInput.addEventListener("input", updateBackground);
 clearButton.addEventListener("click", clearCanvas);
 window.addEventListener("resize", resizeSurface);
 
+// Initialize once on load so the canvas fills the viewport and begins rendering.
+resizeSurface();
+updateBackground();
+drawFrame();
+
 resizeSurface();
 updateBackground();
 requestAnimationFrame(drawFrame);
