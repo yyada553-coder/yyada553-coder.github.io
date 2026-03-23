@@ -69,5 +69,5 @@ const server = http.createServer((request, response) => {
 });
 
 server.listen(port, host, () => {
-  console.log(`Fleshflow app is running at http://${host}:${port}`);
+  console.log(`coping with canvas app is running at http://${host}:${port}`);
 });
